@@ -1,4 +1,5 @@
 (ns clj-dgraph-client.dml
+  (:require [clojure.tools.logging :as log])
   (:import (com.google.gson Gson)
            (io.dgraph DgraphProto$Mutation)
            (com.google.protobuf ByteString)))
@@ -14,10 +15,16 @@
         (.mutate transaction mutation)
         (.commit transaction))
       (catch Exception e
-        (.discard transaction)))))
+        (log/error "Not able to run the mutations")
+        (.discard transaction)
+        (throw e)))))
 
 (defn query [dgraph-client query class-ref]
-  (let [gson-object (new Gson)
-        transaction (.newTransaction dgraph-client)
-        response    (.query transaction query)]
-    (.fromJson gson-object (.getJson response) class-ref)))
+  (try
+    (let [gson-object (new Gson)
+          transaction (.newTransaction dgraph-client)
+          response    (.query transaction query)]
+      (.fromJson gson-object (.getJson response) class-ref))
+    (catch Exception e
+      (log/error "Not able to run the query")
+      (throw e))))
