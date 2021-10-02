@@ -1,7 +1,7 @@
 (ns clj-dgraph-client.core
   (:require [clojure.tools.logging :as log])
   (:import (io.grpc ManagedChannelBuilder)
-           (io.dgraph DgraphGrpc DgraphClient DgraphGrpc$DgraphStub DgraphProto$Operation)))
+           (io.dgraph DgraphGrpc DgraphClient DgraphGrpc$DgraphStub)))
 
 (defn create-client [host-address host-port]
   (try
