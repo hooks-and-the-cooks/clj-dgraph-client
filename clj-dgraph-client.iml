@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module cursive.leiningen.project.LeiningenProjectsManager.displayName="clj-dgraph-client:0.1.0-SNAPSHOT" cursive.leiningen.project.LeiningenProjectsManager.isLeinModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/dev-resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Leiningen: cambium/cambium.codec-simple:1.0.0" level="project" />
+    <orderEntry type="library" name="Leiningen: cambium/cambium.core:1.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: cambium/cambium.logback.core:0.4.4" level="project" />
+    <orderEntry type="library" name="Leiningen: ch.qos.logback/logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" name="Leiningen: ch.qos.logback/logback-core:1.2.3" level="project" />
+    <orderEntry type="library" name="Leiningen: clojure-complete:0.2.5" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.android/annotations:4.1.1.4" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.api.grpc/proto-google-common-protos:1.17.0" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.code.findbugs/jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.code.gson/gson:2.8.6" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.errorprone/error_prone_annotations:2.3.4" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.guava/failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.guava/guava:29.0-android" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.guava/listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.j2objc/j2objc-annotations:1.3" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.protobuf/protobuf-java:3.12.0" level="project" />
+    <orderEntry type="library" name="Leiningen: io.dgraph/dgraph4j:21.03.1" level="project" />
+    <orderEntry type="library" name="Leiningen: io.grpc/grpc-api:1.34.1" level="project" />
+    <orderEntry type="library" name="Leiningen: io.grpc/grpc-context:1.34.1" level="project" />
+    <orderEntry type="library" name="Leiningen: io.grpc/grpc-core:1.34.1" level="project" />
+    <orderEntry type="library" name="Leiningen: io.grpc/grpc-netty:1.34.1" level="project" />
+    <orderEntry type="library" name="Leiningen: io.grpc/grpc-protobuf-lite:1.34.1" level="project" />
+    <orderEntry type="library" name="Leiningen: io.grpc/grpc-protobuf:1.34.1" level="project" />
+    <orderEntry type="library" name="Leiningen: io.grpc/grpc-stub:1.34.1" level="project" />
+    <orderEntry type="library" name="Leiningen: io.netty/netty-buffer:4.1.51.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.netty/netty-codec-http2:4.1.51.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.netty/netty-codec-http:4.1.51.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.netty/netty-codec-socks:4.1.51.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.netty/netty-codec:4.1.51.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.netty/netty-common:4.1.51.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.netty/netty-handler-proxy:4.1.51.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.netty/netty-handler:4.1.51.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.netty/netty-resolver:4.1.51.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.netty/netty-transport:4.1.51.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.perfmark/perfmark-api:0.19.0" level="project" />
+    <orderEntry type="library" name="Leiningen: javax.annotation/javax.annotation-api:1.2-b01" level="project" />
+    <orderEntry type="library" name="Leiningen: nrepl:0.6.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.checkerframework/checker-compat-qual:2.5.5" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.10.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/core.specs.alpha:0.2.44" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/spec.alpha:0.2.176" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/tools.logging:1.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.codehaus.janino/commons-compiler:3.1.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.codehaus.janino/janino:3.1.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.codehaus.mojo/animal-sniffer-annotations:1.18" level="project" />
+    <orderEntry type="library" name="Leiningen: org.slf4j/slf4j-api:1.7.21" level="project" />
+  </component>
+</module>
